@@ -61,7 +61,7 @@ def vigenere_caesar_decrypt(ciphertext, vigenere_key, caesar_shift):
 # Teks yang akan dienkripsi
 plaintext = "Success is not final, failure is not fatal, it is the courage to continue that counts"
 vigenere_key = "RATRI"
-caesar_shift = 3
+caesar_shift = 1
 
 # Enkripsi pesan
 ciphertext = vigenere_caesar_encrypt(plaintext, vigenere_key, caesar_shift)
